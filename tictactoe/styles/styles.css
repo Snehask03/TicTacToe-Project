@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'comfortaa',sans-serif;
+    color: white;
+    background-color: black;
+}
+#main-header{
+    background-color:rgba(128, 0, 128, 0.622);
+    color: white;
+    padding: 1.5rem 5%;
+    text-align: center;
+}
+.btn{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color:rgba(128, 0, 128, 0.622);
+    border: 1px solid rgba(128, 0, 128, 0.622);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-alt{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(236, 229, 236, 0.622);
+}
+.btn:hover{
+    background-color: rgba(78, 1, 78, 0.622);
+    border-color: rgba(78, 1, 78, 0.622);
+}
+.btn-alt:hover{
+    background-color: rgba(218, 212, 218, 0.622);
+}
